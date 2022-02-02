@@ -5,7 +5,7 @@ npm install
 npm install pm2@latest -g
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install redis-server
+sudo apt install redis-server
 sudo mkdir -p /var/log/redis/ 
 sudo touch /var/log/redis/redis-server.log 
 sudo chown redis:redis /var/log/redis/redis-server.log
